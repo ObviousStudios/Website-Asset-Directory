@@ -33,7 +33,7 @@ button{
     min-width: 2vw;
     max-width: 2vw;
     max-height: 2vw;
-    position: sticky;
+    position: fixed;
     padding: 0;
     margin: 0;
     top:0%;
