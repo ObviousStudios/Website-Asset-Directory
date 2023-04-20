@@ -4,9 +4,9 @@ const themeInit = () => {
     const themeIcon = document.getElementById("themeIco");
     const iconRepo = "https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/"
     const themeJSON = {
-        Dark:{name:"darkTheme",next:"Light",icon:iconRepo+"dark.svg"},
-        Light:{name:"lightTheme",next:"Aqua",icon:iconRepo+"light.svg"},
-        Aqua:{name:"aquaTheme",next:"Pastel",icon:iconRepo+"aqua.svg"},
+        Dark:{name:"darkTheme",next:"Aqua",icon:iconRepo+"dark.svg"},
+        Light:{name:"lightTheme",next:"Pastel",icon:iconRepo+"light.svg"},
+        Aqua:{name:"aquaTheme",next:"Light",icon:iconRepo+"aqua.svg"},
         Pastel:{name:"pastelTheme",next:"Dark",icon:iconRepo+"pastel.svg"},
     }
     
