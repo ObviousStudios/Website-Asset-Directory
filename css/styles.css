@@ -46,7 +46,8 @@ button{
     position: fixed;
     background-color: var(--Background3);
     width: 100vw;
-    height: 2vw;
+    height: 2.5vw;
+    max-height: 2.5vw;
     top:0px;
 }
 
