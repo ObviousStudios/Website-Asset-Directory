@@ -16,6 +16,7 @@ button{
 }
 
 .themeButton{
+    position: fixed;
     min-height: 2.5vw;
     min-width: 2.5vw;
     max-width: 2.5vw;
@@ -33,7 +34,6 @@ button{
     min-width: 2vw;
     max-width: 2vw;
     max-height: 2vw;
-    position: fixed;
     padding: 0;
     margin: 0;
     top:0%;
