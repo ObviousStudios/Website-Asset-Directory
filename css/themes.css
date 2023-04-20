@@ -1,7 +1,7 @@
 .darkTheme{
     --Background1: #1a1a1a;
     --Background2: #292929;
-    --Background2: #373737;
+    --Background3: #373737;
 
     --Text: #f0f0f0;
 }
@@ -9,7 +9,7 @@
 .lightTheme{
     --Background1: #ffffff;
     --Background2: #cdcdcd;
-    --Background2: #b4b4b4;
+    --Background3: #b4b4b4;
 
     --Text: #1a1a1a;
 }
@@ -17,7 +17,7 @@
 .aquaTheme{
     --Background1: #090535;
     --Background2: #070424;
-    --Background2: #09041b;
+    --Background3: #09041b;
 
     --Text: #479aff;
 }
@@ -25,7 +25,7 @@
 .pastelTheme{
     --Background1: #ffcafb;
     --Background2: #db9dd6;
-    --Background2: #b277ac;
+    --Background3: #b277ac;
 
     --Text: #380033;
 }
