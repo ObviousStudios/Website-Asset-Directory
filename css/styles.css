@@ -112,3 +112,8 @@ button{
     width: 100vw;
     height: 3vw;
 }
+
+.link{
+    background-color: var(--linkColor);
+    text-decoration: underline;
+}
