@@ -1,5 +1,14 @@
 .FooterContent{
+    display: flex;
+    justify-content: left;
+    width: 50vw;
+    padding-left: 25vw;
+}
 
+.FooterRow{
+    width: 25%;
+    height: 100%;
+    background-color: aliceblue;
 }
 
 body{
