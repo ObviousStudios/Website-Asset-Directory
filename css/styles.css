@@ -4,6 +4,64 @@ body{
     transition: all 0.5s;
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
+    font-family: Monospace;
+}
+
+.FooterContent{
+    display: flex;
+    justify-content: left;
+    width: 50vw;
+    padding-left: 25vw;
+}
+
+.FooterRow{
+    width: 25%;
+    height: 100%;
+}
+
+.headerQuote{
+    width: calc(100% - 2.5vw);
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.siteHeader{ 
+    z-index: 10;
+    position: fixed !important;
+}
+
+.logo{
+    width: auto;
+    height: 75vh;
+
+    transition : filter 0.75s;
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
+.noSelect { /* taken from Mozilla */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+.PageFooter{
+    margin-top: 5vh;
+    padding-top: 5vh;
+    width: 100vw;
+    height: 25vw;
+    background-color: var(--Background3);
+}
+
+.smallLogo{
+    width: auto;
+    height: 15vh;
+
+    transition : filter 0.75s;
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
 }
 
 button{
