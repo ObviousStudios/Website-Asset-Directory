@@ -47,5 +47,5 @@
     --LogoGlow: rgba(255, 255, 255, 0);
     --LogoColor: brightness(0) saturate(100%) invert(8%) sepia(31%) saturate(7225%) hue-rotate(290deg) brightness(78%) contrast(110%);
     
-    --ImageButtonFilt: brightness(150%) saturate(55%);
+    --ImageButtonFilt: brightness(150%) saturate(55%) hue-rotate(313deg);
 }
