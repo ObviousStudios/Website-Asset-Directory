@@ -7,6 +7,8 @@
 
     --LogoGlow: rgb(255, 255, 255);
     --LogoColor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(11deg) brightness(103%) contrast(102%);
+    
+    --ImageButtonFilt: grayscale(100%) brightness(110%);
 }
 
 .lightTheme{
@@ -18,6 +20,8 @@
 
     --LogoGlow: rgba(255, 255, 255, 0);
     --LogoColor: brightness(0) saturate(100%);
+    
+    --ImageButtonFilt: grayscale(100%) invert(100%) brightness(70%);
 }
 
 .aquaTheme{
@@ -29,6 +33,8 @@
 
     --LogoGlow: #479aff;
     --LogoColor: brightness(0) saturate(100%) invert(79%) sepia(64%) saturate(6114%) hue-rotate(191deg) brightness(100%) contrast(104%);
+
+    --ImageButtonFilt: hue-rotate(200deg) brightness(150%);
 }
 
 .pastelTheme{
@@ -39,6 +45,7 @@
     --Text: #380033;
 
     --LogoGlow: rgba(255, 255, 255, 0);
-
     --LogoColor: brightness(0) saturate(100%) invert(8%) sepia(31%) saturate(7225%) hue-rotate(290deg) brightness(78%) contrast(110%);
+    
+    --ImageButtonFilt: brightness(150%) saturate(55%);
 }
