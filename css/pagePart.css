@@ -1,0 +1,43 @@
+.FooterContent{
+
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Monospace;
+}
+
+.siteHeader{ 
+    z-index: 10;
+    position: fixed !important;
+}
+
+.logo{
+    width: auto;
+    height: 75vh;
+
+    transition : filter 0.75s;
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
+.noSelect { /* taken from Mozilla */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+.PageFooter{
+    margin-top: 5vh;
+    padding-top: 5vh;
+    width: 100vw;
+    height: 25vw;
+    background-color: var(--Background3);
+}
+
+.smallLogo{
+    width: auto;
+    height: 15vh;
+
+    transition : filter 0.75s;
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
