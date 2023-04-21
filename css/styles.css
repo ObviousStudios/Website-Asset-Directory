@@ -16,7 +16,6 @@ button{
 }
 
 .themeButton{
-    position: sticky;
     min-height: 2.5vw;
     min-width: 2.5vw;
     max-width: 2.5vw;
@@ -43,7 +42,7 @@ button{
 }
 
 .siteHeader{
-    position: sticky;
+    position: absolute;
     background-color: var(--Background3);
     width: 100vw;
     height: 2.5vw;
