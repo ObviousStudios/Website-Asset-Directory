@@ -5,6 +5,9 @@
 
     --Text: #f0f0f0;
     --linkColor: #8cd1ff;
+    --linkColorVisited: #aedfff;
+    --linkColorHover: #76a9cc;
+    --linkColorActive: #ffffff;
     
     --LogoGlow: rgb(255, 255, 255);
     --LogoColor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(11deg) brightness(103%) contrast(102%);
@@ -19,6 +22,9 @@
 
     --Text: #1a1a1a;
     --linkColor: #8cf2ff;
+    --linkColorVisited: #aedfff;
+    --linkColorHover: #76a9cc;
+    --linkColorActive: #000000;
 
     --LogoGlow: rgba(255, 255, 255, 0);
     --LogoColor: brightness(0) saturate(100%);
@@ -33,6 +39,9 @@
 
     --Text: #479aff;
     --linkColor: #76ff81;
+    --linkColorVisited: #31ff42;
+    --linkColorHover: #82f8a5;
+    --linkColorActive: #479aff;
 
     --LogoGlow: #479aff;
     --LogoColor: brightness(0) saturate(100%) invert(79%) sepia(64%) saturate(6114%) hue-rotate(191deg) brightness(100%) contrast(104%);
@@ -47,6 +56,9 @@
 
     --Text: #380033;
     --linkColor: #ffb888;
+    --linkColorVisited: #ff9d5c;
+    --linkColorHover: #fffd70;
+    --linkColorActive: #380033;
 
     --LogoGlow: rgba(255, 255, 255, 0);
     --LogoColor: brightness(0) saturate(100%) invert(8%) sepia(31%) saturate(7225%) hue-rotate(290deg) brightness(78%) contrast(110%);
