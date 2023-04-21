@@ -114,21 +114,21 @@ button{
 }
 
 .link:link {
-    background-color: var(--linkColor);
+    color: var(--linkColor);
     text-decoration: underline;
 }
 
 .link:visited {
-    background-color: var(--linkColorVisited);
+    color: var(--linkColorVisited);
     text-decoration: underline;
 }
 
 .link:hover {
-    background-color: var(--linkColorHover);
+    color: var(--linkColorHover);
     text-decoration: underline;
 }
 
 .link:active {
-    background-color: var(--linkColorActive);
+    color: var(--linkColorActive);
     text-decoration: underline;
 }
