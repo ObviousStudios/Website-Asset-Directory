@@ -2,7 +2,10 @@ const generateQuote = () =>{
     const quoteList = [
         "The bottom of this site contains more goodies!",
         "Barely Functioning since 2017!",
-        "Up and running!"
+        "Up and running!",
+        "Check out D7",
+        "Wishlist and Buy SCROOMAGE on steam",
+        "Programmed by one guy *Mostly*"
     ]
 
     Math.randomRange = (min, max) => {
