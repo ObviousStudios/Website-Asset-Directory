@@ -1,8 +1,4 @@
 <header>
-    <div class="logodiv">
-        <p class="bigtext">Blog 1/4/2012</p>
-    </div>
-    <div class="aboutus">
 
     <div class="compat-InnerBlog">
         Obvious Studios, a game development company known for its innovative and engaging games, has recently announced that they will be changing their name to Oblivious Studios. This name change comes as a surprise to many fans, but the company has stated that it is a necessary move to better reflect their values and vision for the future. <br>
@@ -29,5 +25,5 @@ The company is also exploring new ways to engage with their audience, including 
 In conclusion, the decision to change the name from Obvious to Oblivious is a bold move, but one that is in line with the company's ethos of innovation and pushing boundaries. It will help the company to better represent their values<br>
     </div>
     </div>
-    <video src="images/NobodyAsked.webm"  width="320" height="240" controls></video>
+    <video src="https://raw.githubusercontent.com/ObviousStudios/obviousstudioswebsite/main/blog/view/blogs/fools23/images/NobodyAsked.webm"  width="320" height="240" controls></video>
 </header>
