@@ -22,7 +22,9 @@ const generateQuote = () =>{
 
     if (footer) {
         fetch("https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/SitesParts/PageFooter.html").then(text => {
-            footer.innerHTML = text;
+            text.text().then(fix => {
+                footer.innerHTML = fix;
+            });
         })
     }
 }
