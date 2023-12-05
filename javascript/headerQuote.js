@@ -14,9 +14,17 @@ const generateQuote = () =>{
         return Math.floor(Math.random() * (max - min) + min);
       }
 
-    const quoteElement = document.getElementById("Quote")
+    const quoteElement = document.getElementById("Quote");
 
-    quoteElement.textContent = quoteList[Math.randomRange(0,quoteList.length)]
+    quoteElement.textContent = quoteList[Math.randomRange(0,quoteList.length)];
+
+    const footer = document.getElementById("pageFooter");
+
+    if (footer) {
+        fetch("https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/SitesParts/PageFooter.html").then(text => {
+            footer.innerHTML = text;
+        })
+    }
 }
 
 generateQuote()
