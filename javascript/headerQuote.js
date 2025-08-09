@@ -26,7 +26,7 @@ const generateQuote = () =>{
         "AAAAAAAAAAAAAAAAAAAAAAAA",
         "Don't school do drugs.",
         "#1 victory royale",
-        "Chat-GPT generated our privacy policy. Dave fixed it",
+        "We have a new privacy policy! AI-Free",
         "ObviousAlexC.ObviousStudios.dev exists but doesn't have DNS yet",
         "Try Penguinmod!",
         "We like godot!",
